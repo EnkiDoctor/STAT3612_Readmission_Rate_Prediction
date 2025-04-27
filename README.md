@@ -15,6 +15,21 @@
 
 数据集被分为训练集(train.csv)、验证集(valid.csv)和测试集(test.csv、test_answer.csv)。
 
+
+
+## 训练设备
+#### GPU
+- **Model**: NVIDIA A100-PCIE-40GB
+- **Memory**: 40 GB
+- **Quantity**: 1
+
+#### CPU
+- **Model**: Intel Xeon Processor (Skylake, IBRS)
+- **Cores**: 10 vCPUs
+
+#### Memory
+- **Capacity**: 72 GB
+
 ## 模型架构详解
 
 ### 1. 医疗记录文本预测模型 (notes_prediction_model)
